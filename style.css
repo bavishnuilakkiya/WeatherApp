@@ -1,0 +1,57 @@
+
+
+body{
+    background-image: url(/Asset/weather_bg.png);
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    margin: 80px 250px;
+    box-sizing: border-box;
+    background-color: lightsteelblue;
+}
+
+.input{
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 5px;
+    margin: 5px 10px;
+    padding: 5px 20px;
+    align-items: center;
+}
+
+#city_input{
+    height:30px;
+    width:300px;
+    padding:5px 10px;
+    border:none;
+    border-radius: 2px;
+    font: 20px bold black
+}
+
+#get_weather{
+    height:35px;
+    width:150px;
+    padding:5px 10px;
+    border: 2px solid blue;
+    border-radius: 2px;
+    font: 20px bold large black;
+    background-color: lightskyblue;
+    
+}
+
+.display{
+    display:flex;
+    flex-flow: column nowrap;
+    margin: 5px 10px;
+    padding: 5px 20px;
+    align-items: center;
+    font: 15px Italic large black;
+}
+
+.result{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
